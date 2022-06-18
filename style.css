@@ -1,0 +1,101 @@
+body {
+  font-family: font-family: 'Red Hat Display', sans-serif;
+  background-color: #d3e6fd;
+  color: #4b5bd6;
+  width: 100%;
+}
+
+div {
+  background-color: white;
+  padding: 20px 40px;
+  margin: 100px 500px;
+  border: 1px solid none;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: 300;
+  text-align: left;
+}
+
+p {
+  margin-top: 0;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 20px;
+  margin:10px;
+  width: 41%;
+  background-color: #dde1ff;
+  border: none;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 90%;
+  padding:20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+input[type="submit"]{
+    margin: 0 auto;
+    display: block;
+}
+
+::placeholder {
+  color: #4854b0;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.btn {
+  background: #233cf5;
+  background-image: -webkit-linear-gradient(top, #1363DF, #1363DF);
+  background-image: -moz-linear-gradient(top, #1363DF, #1363DF);
+  background-image: -ms-linear-gradient(top, #1363DF, #1363DF);
+  background-image: -o-linear-gradient(top, #1363DF, #1363DF);
+  background-image: linear-gradient(to bottom, #1363DF, #1363DF);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.name {
+  background-color: #e8e9ff;
+}
+
+.email, .tel {
+  background-color:#dde1ff;
+}
+
+.address {
+  background-color: #c7cdfd;
+}
+
+.message {
+  background-color: #a4b1fc;
+}
