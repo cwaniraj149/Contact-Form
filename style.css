@@ -1,6 +1,6 @@
 body {
   font-family: font-family: 'Red Hat Display', sans-serif;
-  background-color: #d3e6fd;
+  background: linear-gradient(314.25deg,rgba(10,185,149,.7) 1.09%,rgba(10,185,149,0) 43.26%),#dacdff;
   color: #4b5bd6;
   display: flex;
   flex-direction: column;
